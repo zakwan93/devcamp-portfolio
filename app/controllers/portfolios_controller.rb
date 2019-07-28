@@ -52,4 +52,7 @@ class PortfoliosController < ApplicationController
     end
   end
 
+  def missing
+
+  end
 end

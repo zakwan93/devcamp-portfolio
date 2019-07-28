@@ -14,5 +14,8 @@ Rails.application.routes.draw do
     end
   end
   
+  get 'portfolios/*missing', to: 'portfolios#missing'
+  get 'portfolio/:id/*missing', to: 'portfolios#missing'
+
   root to: 'pages#home'
 end
