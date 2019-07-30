@@ -29,5 +29,9 @@ module DevcampPortfolio
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+
+    # To allow all parameters from db and not permit in controller 
+    # config.action_controller.permit_all_perameters = true
   end
 end
