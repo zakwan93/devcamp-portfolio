@@ -64,3 +64,4 @@ gem 'jquery-rails'
 
 # gem 'site_copyrights', git: 'https://github.com/zakwan93/site_copyrights'
 gem 'site_copyrights', '~> 0.3.0'
+gem 'petergate', '~> 2.0', '>= 2.0.1'
