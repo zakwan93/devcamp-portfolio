@@ -62,4 +62,5 @@ gem 'bootstrap', '~> 4.0.0'
 
 gem 'jquery-rails'
 
-gem 'site_copyrights', git: 'https://github.com/zakwan93/site_copyrights'
+# gem 'site_copyrights', git: 'https://github.com/zakwan93/site_copyrights'
+gem 'site_copyrights', '~> 0.3.0'
