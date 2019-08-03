@@ -57,3 +57,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.2.4'
 
 gem 'devise', '~> 4.6', '>= 4.6.2'
+
+gem 'bootstrap', '~> 4.0.0'
+
+gem 'jquery-rails'
+
+# gem 'site_copyrights', git: 'https://github.com/zakwan93/site_copyrights'
+gem 'site_copyrights', '~> 0.3.0'
