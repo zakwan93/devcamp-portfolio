@@ -15,24 +15,15 @@
 
   <body>
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column text-center">
-    
+      <%= render "shared/application_nav" %>
+      <main role="main" class="inner cover">
+         
+        <%= yield %>
 
-       <%= render "shared/application_nav" %>
+      </main>
+      <%= render "shared/application_footer" %>
 
-    
-     <main role="main" class="inner cover">
-
-       <!-- < login_helper %> -->
-    <%= yield %>
-
-         </main>
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p> <%= copyright_generator %> </p>
-        </div>
-      </footer>
     </div>
-
     <%= source_helper("application") %>
 
   </body>
