@@ -54,7 +54,7 @@ body {
  */
 .masthead {
   margin-bottom: 2rem;
-  min-width: 55em;
+  max-width: 55em;
 }
 
 .masthead-brand {
@@ -110,4 +110,38 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+
+.heading-1{
+    position: relative;
+    padding: 5px 10px;
+    width: 5em;
+
+
+    &::before{
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 1px;
+      width: 50px;
+      background: white;
+    }
+
+
+    &::after{
+      content: "";
+      display: block;
+      position: absolute;
+      top: 100%;
+      right: 0%;
+      height: 1px;
+      width: 50px;
+      background: white;
+
+    }
+
+
 }
