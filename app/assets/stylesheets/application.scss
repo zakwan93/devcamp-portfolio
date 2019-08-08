@@ -44,9 +44,9 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.cover-container {
+/*.cover-container {
   max-width: 65em;
-}
+}*/
 
 
 /*
@@ -90,15 +90,19 @@ body {
   .nav-masthead {
     float: right;
   }
+
+  .cover {
+    padding: 2rem 0;
+  }
 }
 
 
 /*
  * Cover
  */
-.cover {
+/*.cover {
   padding: 5rem 0 5rem 0;
-}
+}*/
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
@@ -153,4 +157,18 @@ body {
 
 .auth-links a{
   color: black;
+}
+
+.login > .card{
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}
+  
+
+.edit-form > .card{
+  font-size: .7rem;
+  margin: 0 auto;
+  float: none;
+  height: 100%;
 }
