@@ -28,8 +28,8 @@ a:hover {
 
 html,
 body {
-  height: 100%;
   background-color: #333;
+  height: 100%;
 }
 
 body {
@@ -45,7 +45,7 @@ body {
 }
 
 .cover-container {
-  max-width: 55em;
+  max-width: 65em;
 }
 
 
@@ -54,7 +54,7 @@ body {
  */
 .masthead {
   margin-bottom: 2rem;
-  max-width: 55em;
+  max-width: 65em;
 }
 
 .masthead-brand {
@@ -97,7 +97,7 @@ body {
  * Cover
  */
 .cover {
-  padding: 10rem 1.5rem;
+  padding: 5rem 0 5rem 0;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -142,6 +142,15 @@ body {
       background: white;
 
     }
+}
 
 
+
+.card-block{
+  color: black;
+  text-align: left;
+}
+
+.auth-links a{
+  color: black;
 }
